@@ -115,7 +115,7 @@ class Functions(commands.Cog):
 	@commands.command()
 	async def help(self, ctx):
 		embed = discord.Embed( colour = ctx.author.colour )
-		embed.set_author(name="List of Commands", icon_url = os.environ['URL'])
+		embed.set_author(name="List of Commands", icon_url = os.environ['logo_url'])
 
 		embed.add_field(name = "$flag / $f", value = "Ready to accept the flag", inline = False)
 
